@@ -1,14 +1,20 @@
 pwd = input("What is the master password? ")
 
+def view():
+    pass
+
+def add():
+    pass
+
 while True:
     mode = input("Would you like to quit, add a new password or view existing ones (quit/add/view )? ")
 
     if mode == "view":
-        pass
+        view()
     elif mode == "add":
-        pass
+        add()
     elif mode == "quit":
-        quit()
+        break
     else:
         print("Invalid mode.")
         continue
